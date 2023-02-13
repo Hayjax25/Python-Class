@@ -1,0 +1,11 @@
+print("Pig Latin Translator")
+word = input("Enter a word")
+first=word[0:1]
+second=word[1:len(word)]
+print(second+first+"ay")
+word2= input("Enter a word in pig latin")
+word2=word2[0:len(word2)-2]
+print (word2)
+word3= word2[0:len(word2)-1]
+letter= word2[len(word2)-1]
+print (letter+word3)
